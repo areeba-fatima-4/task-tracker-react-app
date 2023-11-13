@@ -29,3 +29,11 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+# Task Tracker App
+
+This is a simple task tracker app with the following features
+
+1. You can add or remove tasks
+2. You can set or unset reminders
+3. You can see a randomized motivational quote
+4. The tasks with reminders set are highlighted
