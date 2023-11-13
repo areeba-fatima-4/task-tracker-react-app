@@ -11,8 +11,6 @@ const Header = ({title, onAdd, showAdd }) => {
   return (
     <header className='header'>
         <h1> {title} </h1> 
-        {/* <Button color='green' text='Submit' onClick={onClick}/>    
-        <Button color='red' text='Delete'/>    */}
         <Button 
          text={!showAdd ? 'Add Task' : 'Close'}
          onClick={onClick}

@@ -3,14 +3,26 @@
     {
       "text": "PR review",
       "day": "Tuesday",
-      "reminder": false,
+      "reminder": true,
       "id": 1
     },
     {
-      "text": "Attend meeting",
-      "day": "Mon",
+      "text": "Some task",
+      "day": "Tue",
       "reminder": true,
       "id": 2
+    },
+    {
+      "text": "Pick laundry",
+      "day": "Sun",
+      "reminder": false,
+      "id": 3
+    },
+    {
+      "text": "Do something",
+      "day": "Mon",
+      "reminder": false,
+      "id": 4
     }
   ]
 }

@@ -116,3 +116,34 @@ footer {
   margin: 1em;
   font: 1.8rem/1.4 Georgia, serif;
 }
+
+.handDrawn {
+  background-color: rgba(240,230,165, 0.6);
+  border-radius: 255px 15px 225px 15px / 12px 225px 15px 225px;
+  font-family: 'Indie Flower', cursive; line-height: 1.5; 
+  box-shadow: 4px 4px 12px 0 rgba(80,80,80, 0.5);
+  text-align: center;
+
+}
+
+.bx {
+  margin: 1em auto; padding: 1em 2em;
+  border: solid 1px #808080; 
+  display: inline-block; 
+  position: relative; 
+  font-size: 18px;  
+  max-width: 400px;
+  text-align: center;
+
+}
+
+
+.qt { 
+  padding: 1em 2em;
+  font-size: 18px;   
+  font-family: 'georgia';   
+  font-weight: bold;   
+  text-align: left;
+  color: teal;
+
+}

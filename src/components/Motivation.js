@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './Button'
 
 export default class Motivation extends React.Component {
     constructor(props) {
@@ -22,9 +23,11 @@ export default class Motivation extends React.Component {
     render() {
         console.log('Rendered')
         return <div>
-            <p> Quote of the day </p>
-            <p className='add-quote'> {this.state.quotes[this.state.randomIndex].value} </p>
-            <button onClick={this.changeQuote} > Next</button>
+            <p> </p>
+            <p className='qt'> Quote of the day </p>
+            <p className='bx handDrawn add-quote' > {this.state.quotes[this.state.randomIndex].value} </p>
+            <p> </p>
+            <Button onClick={this.changeQuote}  text="Change quote"/>
         </div>
     }
 
