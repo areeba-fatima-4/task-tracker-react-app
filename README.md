@@ -37,3 +37,9 @@ This is a simple task tracker app with the following features
 2. You can set or unset reminders
 3. You can see a randomized motivational quote
 4. The tasks with reminders set are highlighted
+
+You will need to run mock backend server: 
+
+1. Install JSON mock server : `npm i json-server`
+2. Add the script in package.json scripts object: `"server": "json-server --watch db.json --port 5000"`
+3. Run the server: `npm run server`
