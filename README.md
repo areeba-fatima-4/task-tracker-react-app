@@ -41,5 +41,4 @@ This is a simple task tracker app with the following features
 You will need to run mock backend server: 
 
 1. Install JSON mock server : `npm i json-server`
-2. Add the script in package.json scripts object: `"server": "json-server --watch db.json --port 5000"`
 3. Run the server: `npm run server`
